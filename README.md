@@ -33,30 +33,36 @@ Install
 - cinst packages.config
 - choco install git ruby python
 - choco install python -x86
+
 Update
 =========
 - chocolatey update - updates chocolatey to the latest version
 - chocolatey update nunit
 - chocolatey update nunit -source http://somelocalfeed.com/nuget
 - cup nunit -source http://somelocalfeed.com/nuget
+
 Uninstall
 =========
 - chocolatey uninstall nunit
 - chocolatey uninstall nunit -version 2.5.7.10213
+
 Help
 =========
 - chocolatey /?
+
 Version
 =========
 - chocolatey version - looks to see if there is an update available for chocolatey
 - choco version nunit
 - chocolatey version nunit -source http://somelocalfeed.com/nuget
 - cver nunit -source http://somelocalfeed.com/nuget
+
 WebPlatformInstaller
 =========
 - chocolatey webpi IISExpress
 - choco webpi IISExpress
 - cinst IISExpress -source webpi
+
 WindowsFeatures
 =========
 - chocolatey WindowsFeatures TelnetClient
