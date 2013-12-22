@@ -1,35 +1,7 @@
 Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
 Enable-RemoteDesktop
 
-cinst fiddler4
-cinst uTorrent
-cinst avgantivirusfree
-cinst VisualStudio2013Ultimate
-cinst GoogleChrome
-cinst WebStorm
-cinst vlc
-cinst teamviewer
-cinst TotalCommander
-cinst doublecmd
-cinst Far
-cinst aimp
-cinst xbmc
-cinst skype
-cinst notepadplusplus
-cinst Console2
-cinst sysinternals
-cinst webpi
-cinst FoxitReader
-cinst tortoisehg
-cinst ilspy
-cinst yumi
-cinst git.commandline
-cinst typescript
-cinst linqpad4
-cinst GitHub
-cinst f.lux
-cinst webpicommandline
-cinst IISExpress -source webpi
-cinst TelnetClient -source windowsfeatures
-cinst Microsoft-Hyper-V-All -source windowsFeatures
-cinst IIS-WebServerRole -source windowsfeatures
+$client = New-Object system.net.WebClient;
+$client.DownloadFile("https://raw.github.com/Ma3yTa/osprepare/master/packages.config","packages.config");
+cinst packages.config
+
