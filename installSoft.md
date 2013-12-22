@@ -25,3 +25,6 @@ cinst ilspy
 cinst yumi
 cinst git.commandline
 cinst typescript
+
+cinst Microsoft-Hyper-V-All -source windowsFeatures
+cinst IIS-WebServerRole -source windowsfeatures
