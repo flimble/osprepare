@@ -28,6 +28,8 @@ cinst typescript
 cinst linqpad4
 cinst GitHub
 cinst f.lux
+cinst webpicommandline
+cinst IISExpress -source webpi
 
 cinst Microsoft-Hyper-V-All -source windowsFeatures
 cinst IIS-WebServerRole -source windowsfeatures
