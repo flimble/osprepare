@@ -30,6 +30,6 @@ cinst GitHub
 cinst f.lux
 cinst webpicommandline
 cinst IISExpress -source webpi
-
+cinst TelnetClient -source windowsfeatures
 cinst Microsoft-Hyper-V-All -source windowsFeatures
 cinst IIS-WebServerRole -source windowsfeatures
