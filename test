@@ -1,0 +1,19 @@
+Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
+Enable-RemoteDesktop
+
+cinst fiddler4
+cinst vlc
+cinst TotalCommander
+cinst doublecmd
+cinst Far
+cinst aimp
+cinst notepadplusplus
+cinst Console2
+cinst webpi
+cinst ilspy
+cinst linqpad4
+cinst GitHub
+cinst f.lux
+
+cinst Microsoft-Hyper-V-All -source windowsFeatures
+cinst IIS-WebServerRole -source windowsfeatures
