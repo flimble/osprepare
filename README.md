@@ -4,7 +4,7 @@ OsPrepare
 Boxstarter script to install software on clear OS.
 Command to install:
 Insert this URI into IE or Explorer path line.
-http://boxstarter.org/package/nr/url?https://raw.github.com/Ma3yTa/osprepare/master/installSoft.md
+http://boxstarter.org/package/nr/url?https://raw.github.com/Ma3yTa/osprepare/master/installSoft.ps1
 
 Documentation
 =========
