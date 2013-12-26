@@ -1,4 +1,4 @@
-Set-ExecutionPolicy Unrestricted
+#Set-ExecutionPolicy Unrestricted
 Disable-UAC
 # Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
 Set-ExplorerOptions -showFileExtensions
