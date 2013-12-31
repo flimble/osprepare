@@ -9,7 +9,7 @@ Move-LibraryDirectory "My Music" "D:\Media\Music" -DoNotMoveOldContent
 Move-LibraryDirectory "My Pictures" "D:\Media\Фото" -DoNotMoveOldContent
 Move-LibraryDirectory "My Video" "D:\Media" -DoNotMoveOldContent
 #Install only WebTools and SQL options from VS2013
-cinst VisualStudio2013Ultimate -InstallArguments "WebTools SQL"
+cinst VisualStudio2013Professional -InstallArguments "WebTools SQL"
 $client = New-Object system.net.WebClient;
 $client.DownloadFile("https://raw.github.com/Ma3yTa/osprepare/master/packages.config","packages.config");
 cinst packages.config
