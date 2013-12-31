@@ -2,7 +2,7 @@
 #####################
 # BEGIN CONFIGURATION
 #####################
-#region Initial Windows Config
+#region WindowsConfig
   Disable-UAC
   Import-Module $env:systemdrive\chocolatey\chocolateyinstall\helpers\chocolateyInstaller.psm1
   #Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
