@@ -22,6 +22,11 @@
   Install-ChocolateyVsixPackage WebEssentials2013 http://visualstudiogallery.msdn.microsoft.com/56633663-6799-41d7-9df7-0f2a504ca361/file/105627/23/WebEssentials2013.vsix
   Install-ChocolateyVsixPackage Mindscape.WebWorkbench.Integration.10 http://visualstudiogallery.msdn.microsoft.com/2b96d16a-c986-4501-8f97-8008f9db141a/file/53962/58/Mindscape.WebWorkbench.Integration.10.vsix
 #endregion
+#region IISConfig
+  cinst IIS-WebServerRole -source windowsfeatures
+  cinst IIS-HttpCompressionDynamic -source windowsfeatures
+  cinst IIS-ManagementConsole -source windowsfeatures
+#endregion
 #region AnotherSoft
   $client = New-Object system.net.WebClient;
   $client.DownloadFile("https://raw.github.com/Ma3yTa/osprepare/master/packages.config","packages.config");
