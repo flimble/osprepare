@@ -2,11 +2,12 @@
 #####################
 # BEGIN CONFIGURATION
 #####################
-#Set-ExecutionPolicy Unrestricted
 #region Initial Windows Config
   Disable-UAC
   Import-Module $env:systemdrive\chocolatey\chocolateyinstall\helpers\chocolateyInstaller.psm1
-  # Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
+  #Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
+  #Update-ExecutionPolicy Unrestricted
+  Install-WindowsUpdate -AcceptEula
   Set-ExplorerOptions -showFileExtensions
   Enable-RemoteDesktop
   Move-LibraryDirectory "Downloads" "D:\Downloads"  -DoNotMoveOldContent
