@@ -26,6 +26,7 @@
   cinst IIS-WebServerRole -source windowsfeatures
   cinst IIS-HttpCompressionDynamic -source windowsfeatures
   cinst IIS-ManagementConsole -source windowsfeatures
+  cinst Microsoft-Hyper-V-All -source windowsFeatures
 #endregion
 #region AnotherSoft
   $client = New-Object system.net.WebClient;
